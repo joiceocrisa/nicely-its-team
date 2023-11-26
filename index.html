@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Nogogeni</title>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
 
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -46,7 +47,7 @@
       <main class="content">
         <h1><span>Get To Know </span><strong>Us!</strong></h1>
         <a href="#" class="cta">Hi! We're Nicely.</a>
-        <p>
+        <p data-aos="fade-left" data-aos-delay="500" data-aos-duration="600">
           Nicely Team is one of vehicle research team in Sepuluh Nopember
           Institute of Technology. We liked to develope formula student's car
           and developing environmentally friendly energy efficient vehicles. We
@@ -55,11 +56,28 @@
       </main>
       <div class="picture">
         <div class="knowus">
-          <img src="img/pict1.jpeg " alt="knowus" />
-          <img src="img/pict2.jpeg " alt="knowus" />
+          <img
+            data-aos="zoom-out"
+            data-aos-delay="300"
+            data-aos-duration="3000"
+            src="img/pict1.jpeg "
+            alt="knowus"
+          />
+          <img
+            data-aos="zoom-out"
+            data-aos-delay="300"
+            data-aos-duration="3000"
+            src="img/pict2.jpeg "
+            alt="knowus"
+          />
         </div>
       </div>
-      <div class="picture">
+      <div
+        class="picture"
+        data-aos="zoom-out"
+        data-aos-delay="300"
+        data-aos-duration="3000"
+      >
         <div class="knowus2">
           <img src="img/pict3.jpeg " alt="knowus" />
         </div>
@@ -68,10 +86,16 @@
     <!-- Hero Section end-->
 
     <!--Members Section Start-->
+
     <section id="members" class="members">
       <h2>- Meet Our <span>Members -</span></h2>
       <div class="row">
-        <div class="members-img">
+        <div
+          class="members-img"
+          data-aos="fade-up"
+          data-aos-delay="500"
+          data-aos-duration="1500"
+        >
           <!-- Mark Zuckeberg-->
           <div class="image-item">
             <img src="img/orang1.jpeg " alt="members" />
@@ -87,7 +111,12 @@
         </div>
       </div>
       <div class="row2">
-        <div class="row members2-img">
+        <div
+          class="row members2-img"
+          data-aos="fade-up"
+          data-aos-delay="500"
+          data-aos-duration="1500"
+        >
           <div class="image-item2">
             <img src="img/ang1.jpeg" alt="members" />
             <h3>Anggota</h3>
@@ -116,7 +145,12 @@
     <!--experience Section Start-->
     <section id="experience" class="experience">
       <h2>- Our<span>Journey! - </span></h2>
-      <div class="all-experience">
+      <div
+        class="all-experience"
+        data-aos="fade-up"
+        data-aos-delay="500"
+        data-aos-duration="1500"
+      >
         <div class="experience-img">
           <img src="img/win1.jpeg" alt="win picture" />
         </div>
@@ -130,7 +164,12 @@
           </p>
         </div>
       </div>
-      <div class="all-experience">
+      <div
+        class="all-experience"
+        data-aos="fade-up"
+        data-aos-delay="500"
+        data-aos-duration="1500"
+      >
         <div class="experience-img">
           <img src="img/ex1.jpeg" alt="win picture" />
         </div>
@@ -151,7 +190,12 @@
     <section id="contact" class="contact">
       <h2>- Contact<span> Us -</span></h2>
 
-      <div class="row">
+      <div
+        class="row"
+        data-aos="fade-up"
+        data-aos-delay="500"
+        data-aos-duration="1500"
+      >
         <iframe
           src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d126646.20750916582!2d112.71268375!3d-7.275619450000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd7fbf8381ac47f%3A0x3027a76e352be40!2sSurabaya%2C%20East%20Java!5e0!3m2!1sen!2sid!4v1700966172318!5m2!1sen!2sid"
           allowfullscreen=""
@@ -202,5 +246,9 @@
     </script>
     <!-- My Javascript-->
     <script src="js/script.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>
